@@ -1,9 +1,15 @@
+/* ======================================
+   PROJETO: Clínica Vida Plena
+   ====================================== */
+
+/* ===== RESET — Remove estilos padrão do navegador ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ===== BASE — Estilos gerais do site ===== */
 body {
   font-family: Arial, sans-serif;
   color: #2d3436;
@@ -14,6 +20,7 @@ body {
   flex-direction: column;
 }
 
+/* ===== TIPOGRAFIA — Textos e títulos ===== */
 h1, h2 {
   margin-bottom: 0.8rem;
 }
@@ -30,6 +37,7 @@ p {
   margin-bottom: 1rem;
 }
 
+/* ===== ESTRUTURA — Cabeçalho ===== */
 header {
   background-color: #2e7d32;
   color: #ffffff;
@@ -41,6 +49,7 @@ header h1 {
   font-size: 1.8rem;
 }
 
+/* ===== ESTRUTURA — Navegação ===== */
 nav ul {
   list-style: none;
   text-align: center;
@@ -58,6 +67,7 @@ nav a {
   font-weight: bold;
 }
 
+/* ===== ESTRUTURA — Conteúdo principal ===== */
 main {
   max-width: 1100px;
   margin: 2rem auto;
@@ -66,6 +76,7 @@ main {
   flex: 1;
 }
 
+/* ===== ESTRUTURA — Rodapé ===== */
 footer {
   background-color: #1565c0;
   color: #e3f2fd;
@@ -73,6 +84,7 @@ footer {
   padding: 1.8rem 1rem;
 }
 
+/* ===== COMPONENTES — Classes ===== */
 .menu-item {
   font-size: 1.1rem;
   padding: 0.3rem 0.6rem;
@@ -84,6 +96,7 @@ footer {
   padding-left: 0.8rem;
 }
 
+/* ===== SEÇÕES ESPECÍFICAS — IDs ===== */
 #conteudo-principal,
 #formulario-agendamento {
   background-color: #ffffff;
@@ -91,6 +104,7 @@ footer {
   border-radius: 8px;
 }
 
+/* ===== FORMULÁRIO ===== */
 form label {
   display: block;
   margin-top: 1rem;
