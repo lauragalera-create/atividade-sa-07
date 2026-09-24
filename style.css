@@ -84,12 +84,7 @@ footer {
   padding-left: 0.8rem;
 }
 
-#conteudo-principal {
-  background-color: #ffffff;
-  padding: 2rem;
-  border-radius: 8px;
-}
-
+#conteudo-principal,
 #formulario-agendamento {
   background-color: #ffffff;
   padding: 2rem;
