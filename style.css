@@ -72,3 +72,52 @@ footer {
   text-align: center;
   padding: 1.8rem 1rem;
 }
+
+.menu-item {
+  font-size: 1.1rem;
+  padding: 0.3rem 0.6rem;
+  display: inline-block;
+}
+
+.destaque {
+  border-left: 4px solid #43a047;
+  padding-left: 0.8rem;
+}
+
+#conteudo-principal {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+#formulario-agendamento {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
